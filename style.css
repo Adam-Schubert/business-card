@@ -1,4 +1,4 @@
-header, footer {
+header, footer {    /*Styles for the header and footer*/
     margin: auto;
     background-color: #978efb;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -7,24 +7,28 @@ header, footer {
     font-size: larger;
 }
 
-main {
+main {      /*Styles for the main*/
     background-color: #978efb;
     text-align: center;
 }
 
-img {
+img {       /*Styles for the image of me*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-h3 {
+ul, ol {        /*Styles for both list types*/
+    text-align:center; list-style-position:inside; 
+}
+
+h3 {        /*Styles for all h3 headings*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black; /*Just using the color name here to show I know I can use either, even though I understand it's best to be consistent*/
 }
 
-p {
+p {     /*Styles for all paragraphs*/
     font-family: 'Times New Roman', Times, serif;
 }
 
