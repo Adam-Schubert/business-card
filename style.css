@@ -12,10 +12,10 @@ main {      /*Styles for the main*/
 }
 
 img {       /*Styles for the image of me*/
-    max-width:100%;
-    height:auto;
-    align-content: center;
-}        
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}     
     
 
 ul, ol {        /*Styles for both list types*/
