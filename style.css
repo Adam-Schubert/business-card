@@ -1,11 +1,10 @@
 /*<----Styles for the header and footer---->*/
 
 header, footer {    
-    margin: auto;
-    background-color: #978efb;
+    background-color: #000000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: #000000;
+    color: #978efb;
     font-size: larger;
 }
 
