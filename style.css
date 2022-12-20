@@ -6,6 +6,7 @@ header, footer {
     text-align: center;
     color: #978efb;
     font-size: larger;
+    border: 2px solid #978efb;
 }
 
 /*<----Styles for the main---->*/
