@@ -1,7 +1,14 @@
-header {
+header, footer {
     margin: auto;
-    background-color: #c9c9c9;
+    background-color: #978efb;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    color: #0ed8ce;
+    color: #000000;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
