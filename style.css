@@ -60,8 +60,7 @@ p {
 /*<----Styles for all horizontal rules---->*/
 
 hr.styled-hr {
-    color: #3cf6f0 !important;
-    width: 70% !important;
+    border: 5px solid #3cf6f0;
 }
 
 /*<----Link styles (psuedo classes)---->*/
