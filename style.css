@@ -57,7 +57,7 @@ p {
     text-align: center;
 }
 
-/*<----Link styles---->*/
+/*<----Link styles (psuedo classes)---->*/
 
 a:link {        
     color: #3cf6f0;
