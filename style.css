@@ -23,7 +23,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 75px;
     width: 400px;
     height: 400px;
     border: 3px solid #3cf6f0;
@@ -57,7 +57,7 @@ p {
 
 /*<----Styles for all hr's---->*/
 
-hr {
+hr.styled-hr {
     background-color: #3cf6f0;
 }
 
