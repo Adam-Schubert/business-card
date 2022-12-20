@@ -59,8 +59,8 @@ p {
 
 /*<----Styles for all horizontal rules---->*/
 
-hr {
-    color: #3cf6f0 !important;
+hr.styled-hr {
+    color: #3cf6f0 !important;      /*Using !important here because I don't know why these are not reflecting in the preview*/
     width: 60% !important;
 }
 
