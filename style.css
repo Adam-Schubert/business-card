@@ -55,12 +55,6 @@ p {
     text-align: center;
 }
 
-/*<----Styles for all hr's---->*/
-
-hr.styled-hr {
-    background-color: #3cf6f0;
-}
-
 /*<----Link styles---->*/
 
 a:link {        
