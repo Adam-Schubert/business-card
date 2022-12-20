@@ -15,8 +15,6 @@ header, footer {
 main {      
     background-color: #978efb;
     margin: 0;
-    background-image: url(business-card-images/me.jpeg);
-    background-repeat: repeat-x;
 }
 
 /*<----Styles for the image---->*/
