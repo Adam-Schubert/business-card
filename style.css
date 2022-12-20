@@ -6,6 +6,10 @@ header, footer {
     color: #000000;
 }
 
+main {
+    background-color: #978efb;
+}
+
 img {
     display: block;
     margin-left: auto;
