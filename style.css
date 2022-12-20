@@ -34,6 +34,12 @@ img {
 section.container-with-lists {     
     text-align: center;
   }
+
+  /*<----Styles for divs that contain lists---->*/
+
+.bordered-divs {
+    border: 3px solid #3cf6f0;
+}
   
   ul.centered-list, ol.centered-list {
     display: inline-block;
@@ -53,10 +59,6 @@ h3 {
 p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
-
-.bordered-divs {
-    border: 3px solid #3cf6f0;
 }
 
 /*<----Link styles---->*/
