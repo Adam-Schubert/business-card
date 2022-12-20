@@ -60,7 +60,7 @@ p {
 /*<----Styles for all horizontal rules---->*/
 
 hr {
-    background-color: #3cf6f0 !important;
+    color: #3cf6f0 !important;
     width: 60% !important;
 }
 
