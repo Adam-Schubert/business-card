@@ -1,4 +1,6 @@
-header, footer {    /*Styles for the header and footer*/
+/*<----Styles for the header and footer---->*/
+
+header, footer {    
     margin: auto;
     background-color: #978efb;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -7,17 +9,25 @@ header, footer {    /*Styles for the header and footer*/
     font-size: larger;
 }
 
-main {      /*Styles for the main*/
+/*<----Styles for the main---->*/
+
+main {      
     background-color: #978efb;
 }
 
-img {       /*Styles for the image*/
+/*<----Styles for the image---->*/
+
+img {       
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
+    height: 300px;
 }     
-    
-div.container {     /*Styles for lists*/
+
+/*<----Styles for lists---->*/
+
+div.container {     
     text-align: center;
   }
   
@@ -26,14 +36,35 @@ div.container {     /*Styles for lists*/
     text-align: left;
   }
 
-h3 {        /*Styles for all h3 headings*/
+/*<----Styles for all h3 headings---->*/
+
+h3 {        
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;  /*Just using the color name here to show I know I can use different expressions, even though I understand it's best to be consistent throughout a project*/
     text-align: center;
 }
 
-p {     /*Styles for all paragraphs*/
+/*<----Styles for all paragraphs---->*/
+
+p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
+/*<----Link styles*---->*/
+
+a:link {        
+    color: #3cf6f0;
+}
+
+a:visited {
+    color: #48079c;
+}
+
+a:hover {
+    color: #0b25ea;
+}
+
+a:active {
+    color: #000000;
+}
