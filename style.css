@@ -57,6 +57,13 @@ p {
     text-align: center;
 }
 
+/*<----Styles for all horizontal rules---->*/
+
+hr {
+    background-color: #3cf6f0;
+    width: 60%;
+}
+
 /*<----Link styles (psuedo classes)---->*/
 
 a:link {        
