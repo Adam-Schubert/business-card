@@ -55,6 +55,10 @@ p {
     text-align: center;
 }
 
+.bordered-divs {
+    border: 3px solid #3cf6f0;
+}
+
 /*<----Link styles---->*/
 
 a:link {        
