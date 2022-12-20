@@ -1,4 +1,4 @@
-<!--It's important to include the DOCTYPE, html, and head info before you actually start creating the visual part of the web page.
+<!-- 1. It's important to include the DOCTYPE, html, and head info before you actually start creating the visual part of the web page.
 Notice how the html tag wraps around the entire code.
 -->
 
@@ -10,21 +10,21 @@ Notice how the html tag wraps around the entire code.
   <link href="style.css" rel="stylesheet" />
 </head>
 
-<!--Next, create the body of the web page-->
+<!-- 2. Next, create the body of the web page-->
 
 <body>
 
-<!--Inside the body you'll want several containers, for example, a header:-->
+<!-- 3. Inside the body you'll want several semantic containers, for example, a header:-->
 
     <header>
         <h1>Adam M. Schubert</h1>
         <h2>(Software Developer)</h2>
     </header>
 
-<!--A main container (which includes several other containers):-->
+<!-- 4. A main container (which includes several other containers and an image in this case)):-->
 
     <main>
-        <img src="business-card-images/me.jpeg" alt="Adam's Headshot">
+        <img src="business-card-images/me.jpeg" alt="Adam's Headshot">      <!--This is referencing the sole image in the project files, as well as creating semantic -->
 
         <div class="container-with-lists">
         <h3>Hey there, my name is Adam...</h3>
@@ -47,8 +47,8 @@ Notice how the html tag wraps around the entire code.
             I've sharpened a unique set of skills while fostering a love for technology and coding, with which I'm sure I can make a positive and colorful impact on the world.
             </p>
             <p>Feel free to tag along as I embark upon an Engineering Immersion bootcamp with <a href="https://www.thinkful.com//getstarted/all-topics-outcomes/?sf_campaign_id=7015b0000033JLoAAM&utm_campaign=&utm_medium=g&utm_content=&utm_term=GGL_Brand_Ex_GEO_Core&utm_source=google&keyword=thinkful&matchtype=e&adgroupid=125742843081&campaignid=13051883165&creativeid=520765092401&keywordid=303219710301&gclid=Cj0KCQiA14WdBhD8ARIsANao07jkg_MBxfUX5wr5gTab3AbNe2uV27j2UGDZ7FNX3gozUAmDAFzYGWcaAi3xEALw_wcB">
-               Thinkful</a>
-               .I'll be updating <a href="https://github.com/enterprise/?&ef_id=Cj0KCQiA14WdBhD8ARIsANao07iqchzWuxYMfRTrFnboEXKOns__yCMKqP01Vkdg9q9R8AYozkPUoiwaAt5DEALw_wcB:G:s&OCID=AIDcmmc3fhtaow_SEM_Cj0KCQiA14WdBhD8ARIsANao07iqchzWuxYMfRTrFnboEXKOns__yCMKqP01Vkdg9q9R8AYozkPUoiwaAt5DEALw_wcB:G:s&gclid=Cj0KCQiA14WdBhD8ARIsANao07iqchzWuxYMfRTrFnboEXKOns__yCMKqP01Vkdg9q9R8AYozkPUoiwaAt5DEALw_wcB">
+               Thinkful.</a>
+               I'll be updating <a href="https://github.com/enterprise/?&ef_id=Cj0KCQiA14WdBhD8ARIsANao07iqchzWuxYMfRTrFnboEXKOns__yCMKqP01Vkdg9q9R8AYozkPUoiwaAt5DEALw_wcB:G:s&OCID=AIDcmmc3fhtaow_SEM_Cj0KCQiA14WdBhD8ARIsANao07iqchzWuxYMfRTrFnboEXKOns__yCMKqP01Vkdg9q9R8AYozkPUoiwaAt5DEALw_wcB:G:s&gclid=Cj0KCQiA14WdBhD8ARIsANao07iqchzWuxYMfRTrFnboEXKOns__yCMKqP01Vkdg9q9R8AYozkPUoiwaAt5DEALw_wcB">
                GitHub</a>
                with plenty more code as I make my way through the course material. 
             </p>
@@ -67,11 +67,16 @@ Notice how the html tag wraps around the entire code.
         </div>
 
     </main>
+
+<!-- 5. And a footer-->
+
     <footer>
-        <p>&copy; Adam M. Schubert, 2022</p>
+        <p>&copy; Adam M. Schubert, 2022</p>    <!--The "&copy" syntax makes the copyright symbol appear on the web page-->
     </footer>
-  <script src="script.js"></script>
+
+  <script src="script.js"></script>     <!--This is referencning an empty JavaScript file in my project files-->
   <script>
   </script>
+
 </body>
 </html>
