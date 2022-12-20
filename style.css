@@ -25,6 +25,7 @@ img {
     margin-right: auto;
     width: 400px;
     height: 400px;
+    background-image: url(business-card-images/me.jpeg);
     background-repeat: repeat-x;
 }     
 
