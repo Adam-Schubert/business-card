@@ -15,6 +15,8 @@ header, footer {
 main {      
     background-color: #978efb;
     margin: 0;
+    background-image: url(business-card-images/me.jpeg);
+    background-repeat: repeat-x;
 }
 
 /*<----Styles for the image---->*/
@@ -25,8 +27,6 @@ img {
     margin-right: auto;
     width: 400px;
     height: 400px;
-    background-image: url(business-card-images/me.jpeg);
-    background-repeat: repeat-x;
 }     
 
 /*<----Styles for lists---->*/
@@ -55,7 +55,7 @@ p {
     text-align: center;
 }
 
-/*<----Link styles*---->*/
+/*<----Link styles---->*/
 
 a:link {        
     color: #3cf6f0;
