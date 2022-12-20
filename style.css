@@ -17,10 +17,14 @@ img {       /*Styles for the image of me*/
     margin-right: auto;
 }     
     
-
-ul, ol {        /*Styles for both list types*/
-    text-align: left; list-style-position:inside; 
-}
+div.container {     /*Styles for lists*/
+    text-align: center;
+  }
+  
+  ul.centered-list {
+    display: inline-block;
+    text-align: left;
+  }
 
 h3 {        /*Styles for all h3 headings*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
