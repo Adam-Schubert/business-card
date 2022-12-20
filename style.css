@@ -19,7 +19,7 @@ img {       /*Styles for the image of me*/
     
 
 ul, ol {        /*Styles for both list types*/
-    text-align:center; list-style-position:inside; 
+    text-align: left; list-style-position:inside; 
 }
 
 h3 {        /*Styles for all h3 headings*/
