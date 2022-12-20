@@ -1,6 +1,7 @@
 /*<----Styles for the header and footer---->*/
 
-header, footer {    
+header, footer {
+    margin: 0;    
     background-color: #000000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -13,6 +14,7 @@ header, footer {
 
 main {      
     background-color: #978efb;
+    margin: 0;
 }
 
 /*<----Styles for the image---->*/
