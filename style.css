@@ -9,7 +9,6 @@ header, footer {    /*Styles for the header and footer*/
 
 main {      /*Styles for the main*/
     background-color: #978efb;
-    text-align: center;
 }
 
 img {       /*Styles for the image of me*/
@@ -25,10 +24,12 @@ ul, ol {        /*Styles for both list types*/
 
 h3 {        /*Styles for all h3 headings*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black; /*Just using the color name here to show I know I can use either, even though I understand it's best to be consistent*/
+    color: black;  /*Just using the color name here to show I know I can use different expressions, even though I understand it's best to be consistent throughout a project*/
+    text-align: center;
 }
 
 p {     /*Styles for all paragraphs*/
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
