@@ -61,6 +61,7 @@ p {
 
 hr.styled-hr {
     border-top: 1px solid #3cf6f0;
+    width: 70%;
 }
 
 /*<----Link styles (psuedo classes)---->*/
