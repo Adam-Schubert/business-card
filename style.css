@@ -19,7 +19,7 @@ img {
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #978efb;
+    color: black; /*Just using the color name here to show I know I can use either, even though I understand it's best to be consistent*/
 }
 
 p {
