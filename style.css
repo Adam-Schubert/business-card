@@ -39,6 +39,8 @@ section.container-with-lists {
 
 .bordered-divs {
     border: 3px solid #3cf6f0;
+    margin-left: auto;
+    margin-right: auto
 }
   
   ul.centered-list, ol.centered-list {
